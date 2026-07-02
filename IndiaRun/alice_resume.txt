@@ -1,0 +1,23 @@
+Alice Smith
+Email: alice.smith@email.com
+Phone: +1-555-0199
+Location: New York, NY
+
+Summary:
+Experienced Python Software Engineer with 5 years of experience building scalable backend APIs, microservices, and managing cloud infrastructure on AWS. Strong expertise in FastAPI, PostgreSQL, Docker, and Kubernetes.
+
+Skills:
+Python, FastAPI, AWS, PostgreSQL, Docker, Kubernetes, Git, CI/CD, Agile.
+
+Experience:
+Senior Software Engineer | TechCorp Inc. (2022 - Present)
+- Led the migration of monolith API services to FastAPI microservices on AWS EKS, improving latency by 35%.
+- Designed database schemas and optimized slow SQL queries in PostgreSQL, reducing query times.
+- Configured CI/CD pipelines to automate container building and deployment.
+
+Software Developer | CloudSolutions LLC (2020 - 2022)
+- Built RESTful APIs using Flask and Python.
+- Maintained database backups and AWS EC2 server instances.
+
+Education:
+B.S. in Computer Science | New York University

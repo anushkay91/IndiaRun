@@ -1,0 +1,19 @@
+You are an expert AI Resume Parser. Your task is to extract structured candidate information from the raw resume text provided below.
+
+Respond ONLY with a valid JSON object. Do not include any markdown block markers (like ```json), explanations, or additional text.
+
+The JSON object must have exactly the following keys:
+- "name": The full name of the candidate (string, or null if not found)
+- "email": The email address of the candidate (string, or null if not found)
+- "phone": The phone number of the candidate (string, or null if not found)
+- "skills": A list of key technical and soft skills (list of strings, or empty list if not found)
+- "experience_years": Total years of relevant work experience (float/number, or 0.0 if not found/unclear)
+- "experience": A concise summary of their overall work experience (string, or null if not found)
+- "projects": A list of key projects they have worked on (list of strings, or empty list if not found)
+- "education": A summary of their educational background, degrees, and institutions (string, or null if not found)
+- "certifications": A list of professional certifications or licenses (list of strings, or empty list if not found)
+- "work_history": A list of their previous employment history, including job titles and company names (list of strings, or empty list if not found)
+- "achievements": A list of key professional, academic, or personal achievements (list of strings, or empty list if not found)
+
+Resume Text:
+{resume_text}
